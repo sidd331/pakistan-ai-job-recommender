@@ -1,0 +1,63 @@
+2026-04-09 02:38:13  [INFO    ]  Agent initializing...
+2026-04-09 02:38:13  [INFO    ]  Log file: C:\Users\PMLS\Desktop\Artificial_Intelligence\project\logs\agent_20260409.log
+2026-04-09 02:38:13  [INFO    ]  ======================================================================
+2026-04-09 02:38:13  [INFO    ]  [START] SCRAPING CYCLE STARTED  --  2026-04-09 02:38:13
+2026-04-09 02:38:13  [INFO    ]  ======================================================================
+2026-04-09 02:38:13  [INFO    ]  Step 1/2 — Scraping all job portals...
+2026-04-09 02:38:29  [INFO    ]  Launching headless browser...
+2026-04-09 02:38:31  [INFO    ]  --- Starting scraper: Rozee.pk ---
+2026-04-09 02:38:31  [INFO    ]  [Rozee.pk] Navigating to job listing page...
+2026-04-09 02:38:44  [INFO    ]  [Rozee.pk] Found 73 potential job containers
+2026-04-09 02:38:44  [INFO    ]  [Rozee.pk] Extracted 22 jobs
+2026-04-09 02:38:44  [INFO    ]  --- Rozee.pk done: 22 jobs found ---
+2026-04-09 02:38:44  [INFO    ]  --- Starting scraper: Mustakbil ---
+2026-04-09 02:38:44  [INFO    ]  [Mustakbil.com] Navigating to job listing page...
+2026-04-09 02:38:53  [INFO    ]  [Mustakbil.com] Found 63 article containers
+2026-04-09 02:38:53  [INFO    ]  [Mustakbil.com] Extracted 63 jobs
+2026-04-09 02:38:53  [INFO    ]  --- Mustakbil done: 63 jobs found ---
+2026-04-09 02:38:53  [INFO    ]  --- Starting scraper: FPSC ---
+2026-04-09 02:38:53  [INFO    ]  [FPSC] Navigating to advertisements page...
+2026-04-09 02:38:58  [INFO    ]  [FPSC] Found 4 h2 elements to check
+2026-04-09 02:38:58  [INFO    ]  [FPSC] Extracted 2 jobs
+2026-04-09 02:38:58  [INFO    ]  --- FPSC done: 2 jobs found ---
+2026-04-09 02:38:58  [INFO    ]  --- Starting scraper: KPPSC ---
+2026-04-09 02:38:58  [INFO    ]  [KPPSC] Navigating to advertisements page...
+2026-04-09 02:39:04  [INFO    ]  [KPPSC] Extracted 16 jobs
+2026-04-09 02:39:04  [INFO    ]  --- KPPSC done: 16 jobs found ---
+2026-04-09 02:39:04  [INFO    ]  --- Starting scraper: SPSC ---
+2026-04-09 02:39:04  [INFO    ]  [SPSC] Navigating to advertisements page...
+2026-04-09 02:39:09  [INFO    ]  [SPSC] Extracted 1 active jobs
+2026-04-09 02:39:09  [INFO    ]  --- SPSC done: 1 jobs found ---
+2026-04-09 02:39:09  [INFO    ]  --- Starting scraper: AJKPSC ---
+2026-04-09 02:39:09  [INFO    ]  [AJKPSC] Navigating to home page for advertisement links...
+2026-04-09 02:39:14  [INFO    ]  [AJKPSC] Extracted 3 jobs
+2026-04-09 02:39:14  [INFO    ]  --- AJKPSC done: 3 jobs found ---
+2026-04-09 02:39:15  [INFO    ]  Browser closed.
+2026-04-09 02:39:15  [INFO    ]  Step 2/2 — Generating professional Excel report...
+2026-04-09 02:39:15  [INFO    ]  Writing professional Excel report...
+2026-04-09 02:39:15  [INFO    ]    Sheet 'Rozee.pk' written: 22 rows
+2026-04-09 02:39:15  [INFO    ]    Sheet 'Mustakbil.com' written: 63 rows
+2026-04-09 02:39:15  [INFO    ]    Sheet 'FPSC' written: 2 rows
+2026-04-09 02:39:15  [INFO    ]    Sheet 'KPPSC' written: 16 rows
+2026-04-09 02:39:15  [INFO    ]    Sheet 'SPSC' written: 1 rows
+2026-04-09 02:39:15  [INFO    ]    Sheet 'AJKPSC' written: 3 rows
+2026-04-09 02:39:15  [INFO    ]    Sheet 'All Active Jobs' written: 107 rows
+2026-04-09 02:39:15  [INFO    ]    Sheet 'Closed Jobs' written: 5 rows
+2026-04-09 02:39:16  [INFO    ]  Excel saved to: C:\Users\PMLS\Desktop\Artificial_Intelligence\project\Pakistan_Jobs_Report.xlsx
+2026-04-09 02:39:16  [INFO    ]  ======================================================================
+2026-04-09 02:39:16  [INFO    ]  [DONE] SCRAPING CYCLE COMPLETE
+2026-04-09 02:39:16  [INFO    ]     Duration  : 62s
+2026-04-09 02:39:16  [INFO    ]     Total Active Jobs Found : 107
+2026-04-09 02:39:16  [INFO    ]     Report saved to         : C:\Users\PMLS\Desktop\Artificial_Intelligence\project\Pakistan_Jobs_Report.xlsx
+2026-04-09 02:39:16  [INFO    ]  
+2026-04-09 02:39:16  [INFO    ]     Breakdown by Source:
+2026-04-09 02:39:16  [INFO    ]       Rozee.pk          :   22 active     1 closed   ||||||||||||||||||||||
+2026-04-09 02:39:16  [INFO    ]       Mustakbil         :   63 active     0 closed   ||||||||||||||||||||||||||||||
+2026-04-09 02:39:16  [INFO    ]       FPSC              :    2 active     0 closed   ||
+2026-04-09 02:39:16  [INFO    ]       KPPSC             :   16 active     0 closed   ||||||||||||||||
+2026-04-09 02:39:16  [INFO    ]       SPSC              :    1 active     0 closed   |
+2026-04-09 02:39:16  [INFO    ]       AJKPSC            :    3 active     0 closed   |||
+2026-04-09 02:39:16  [INFO    ]  ======================================================================
+2026-04-09 02:39:16  [INFO    ]  [TIMER] Next scheduled run: 2026-04-09 08:39:16
+2026-04-09 02:39:16  [INFO    ]  Agent is running. Keep this terminal open. Press Ctrl+C to stop.
+
